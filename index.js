@@ -101,7 +101,9 @@ app.use((err, req, res, next) => {
 // });
 
 // Force the app to run on port 80
-const PORT = 80;
+// const PORT = 80;
+// Force the app to run on port 3000
+const PORT = 3000;
 
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
